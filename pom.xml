@@ -79,6 +79,9 @@
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>3.7.0.1746</version>
+				<configuration>
+				    <sonar.host.url>http://13.235.69.150:9000/</sonar.host.url>
+				</configuration>
 			      </plugin>
 
 				<plugin>
